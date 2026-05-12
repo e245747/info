@@ -1,15 +1,15 @@
 import numpy as np
 
 class LinearRegression:
-    X = None
+    x = None
     theta = None
-    Y = None
-    
-    def fit(self,X,Y):
+    y = None
+
+    def fit(self, x, y):
         pass
-    
-    def predict(self,X):
+
+    def predict(self, x):
         pass
-    
-    def score(self,X,Y):
+
+    def score(self, x, y):
         pass
